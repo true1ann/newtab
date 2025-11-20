@@ -1,27 +1,27 @@
 {
     "duckduckgo": {
         "pretty_name": "DuckDuckGo",
-        "logo_url": "/engines/duckduckgo.svg",
+        "logo_url": "engines/duckduckgo.svg",
         "search_template": "https://duckduckgo.com/?q=%s"
     },
     "duckduckgo_lite": {
         "pretty_name": "DuckDuckGo (lite)",
-        "logo_url": "/engines/duckduckgo.svg",
+        "logo_url": "engines/duckduckgo.svg",
         "search_template": "https://lite.duckduckgo.com/lite?q=%s"
     },
     "searx_be": {
         "pretty_name": "SearX (.be)",
-        "logo_url": "/engines/searx.png",
+        "logo_url": "engines/searx.png",
         "search_template": "https://searx.be/search?q=%s"
     },
     "google": {
         "pretty_name": "Google",
-        "logo_url": "/engines/google.svg",
+        "logo_url": "engines/google.svg",
         "search_template": "https://google.com/search?q=%s"
     },
     "google_udm14": {
         "pretty_name": "Google (No AI/Gemini)",
-        "logo_url": "/engines/google.svg",
+        "logo_url": "engines/google.svg",
         "search_template": "https://google.com/search?q=%s&udm=14"
     }
 }

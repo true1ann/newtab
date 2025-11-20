@@ -9,7 +9,7 @@ nr.defineComponent({
         document.addEventListener('engine:reload', async () => {
             window.newtab.query = document.querySelector('#search_bar input')?.value || ''
             r.innerHTML = `<div class="lds-ellipsis"><div></div><div></div><div></div><div></div></div>`
-            await fetch('/engines/index.json')
+            await fetch('engines/index.json')
                 .then(r => {
                     if (!r.ok) {
                         console.error(`Fetch Error: ${r.statusText} (${r.status})`)
@@ -59,7 +59,7 @@ nr.defineComponent({
         window.newtab.authors.forEach(author => {
             const a = document.createElement('a')
 
-            a.href = author.href ? author.href : '/nohref.html'
+            a.href = author.href ? author.href : 'nohref.html'
             a.textContent = `${author.name} ${author.user ? `(${author.user})` : ''}`
             r.appendChild(a)
         })
