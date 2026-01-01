@@ -1,27 +1,192 @@
 {
-    "duckduckgo": {
-        "pretty_name": "DuckDuckGo",
-        "logo_url": "engines/duckduckgo.svg",
-        "search_template": "https://duckduckgo.com/?q=%s"
-    },
-    "duckduckgo_lite": {
-        "pretty_name": "DuckDuckGo (lite)",
-        "logo_url": "engines/duckduckgo.svg",
-        "search_template": "https://lite.duckduckgo.com/lite?q=%s"
-    },
-    "searx_be": {
-        "pretty_name": "SearX (.be)",
-        "logo_url": "engines/searx.png",
-        "search_template": "https://searx.be/search?q=%s"
-    },
-    "google": {
-        "pretty_name": "Google",
-        "logo_url": "engines/google.svg",
-        "search_template": "https://google.com/search?q=%s"
-    },
-    "google_udm14": {
-        "pretty_name": "Google (No AI/Gemini)",
-        "logo_url": "engines/google.svg",
-        "search_template": "https://google.com/search?q=%s&udm=14"
-    }
+  "duckduckgo": {
+    "pretty_name": "DuckDuckGo",
+    "logo_url": "engines/duckduckgo.svg",
+    "search_template": "https://duckduckgo.com/?q=%s"
+  },
+  "duckduckgo_lite": {
+    "pretty_name": "DuckDuckGo (lite)",
+    "logo_url": "engines/duckduckgo.svg",
+    "search_template": "https://lite.duckduckgo.com/lite?q=%s"
+  },
+  "searx_be": {
+    "pretty_name": "SearX (.be)",
+    "logo_url": "engines/searx.png",
+    "search_template": "https://searx.be/search?q=%s"
+  },
+  "google": {
+    "pretty_name": "Google",
+    "logo_url": "engines/google.svg",
+    "search_template": "https://google.com/search?q=%s"
+  },
+  "google_udm14": {
+    "pretty_name": "Google (No AI/Gemini)",
+    "logo_url": "engines/google.svg",
+    "search_template": "https://google.com/search?q=%s&udm=14"
+  },
+  "bing": {
+    "pretty_name": "Bing",
+    "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Bing_Fluent_Logo.svg/500px-Bing_Fluent_Logo.svg.png",
+    "search_template": "https://www.bing.com/search?form=&q=%s"
+  },
+  "askcom": {
+    "pretty_name": "Ask",
+    "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Ask.com_Logo.svg/960px-Ask.com_Logo.svg.png",
+    "search_template": "https://www.ask.com/web?q=%s"
+  },
+  "yahoo": {
+    "pretty_name": "Yahoo",
+    "logo_url": "https://s.yimg.com/rz/l/yahoo_en-US_f_p_142x37.png",
+    "search_template": "https://search.yahoo.com/search?p=%s"
+  },
+  "qwant": {
+    "pretty_name": "Qwant",
+    "logo_url": "https://upload.wikimedia.org/wikipedia/commons/5/51/Qwant-Logo.svg",
+    "search_template": "https://www.qwant.com/?q=%s"
+  },
+  "startpage": {
+    "pretty_name": "Startpage",
+    "logo_url": "https://upload.wikimedia.org/wikipedia/commons/3/37/Startpage_logo.svg",
+    "search_template": "https://www.startpage.com/sp/search?q=%s"
+  },
+  "brave": {
+    "pretty_name": "Brave Search",
+    "logo_url": "https://brave.com/static-assets/images/brave-browser-hero.png",
+    "search_template": "https://search.brave.com/search?q=%s"
+  },
+  "yandex": {
+    "pretty_name": "Yandex",
+    "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Yandex_Logo.svg/256px-Yandex_Logo.svg.png",
+    "search_template": "https://yandex.com/search/?text=%s"
+  },
+  "pornhub": {
+    "pretty_name": "Pornhub",
+    "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Pornhub_logo.svg/256px-Pornhub_logo.svg.png",
+    "search_template": "https://www.pornhub.com/video/search?search=%s"
+  },
+  "rule34xxx": {
+    "pretty_name": "Rule34.xxx",
+    "logo_url": "https://static.rule34.xxx/assets/img/rule34.svg",
+    "search_template": "https://rule34.xxx/index.php?page=post&s=list&tags=%s"
+  },
+  "ixquick": {
+    "pretty_name": "Ixquick",
+    "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Ixquick_logo.svg/256px-Ixquick_logo.svg.png",
+    "search_template": "https://www.ixquick.com/do/search?q=%s"
+  },
+  "archiveorg": {
+    "pretty_name": "Archive.org",
+    "logo_url": "https://archive.org/services/img/ia-logo-140x40.png",
+    "search_template": "https://archive.org/search.php?query=%s"
+  },
+  "wolframalpha": {
+    "pretty_name": "WolframAlpha",
+    "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/WolframAlpha_logo.svg/256px-WolframAlpha_logo.svg.png",
+    "search_template": "https://www.wolframalpha.com/input/?i=%s"
+  },
+  "torrentz2": {
+    "pretty_name": "Torrentz2",
+    "logo_url": "https://torrentz2eu.org/favicon.ico",
+    "search_template": "https://torrentz2eu.org/search?f=%s"
+  },
+  "anime": {
+    "pretty_name": "MyAnimeList",
+    "logo_url": "https://cdn.myanimelist.net/img/sp/icon/apple-touch-icon-152x152.png",
+    "search_template": "https://myanimelist.net/anime.php?q=%s"
+  },
+  "gelbooru": {
+    "pretty_name": "Gelbooru",
+    "logo_url": "https://gelbooru.com/images/logo.png",
+    "search_template": "https://gelbooru.com/index.php?page=post&s=list&tags=%s"
+  },
+  "danbooru": {
+    "pretty_name": "Danbooru",
+    "logo_url": "https://danbooru.donmai.us/favicon.ico",
+    "search_template": "https://danbooru.donmai.us/posts?tags=%s"
+  },
+  "e621": {
+    "pretty_name": "e621",
+    "logo_url": "https://static1.e621.net/data/logo.png",
+    "search_template": "https://e621.net/posts?tags=%s"
+  },
+  "deviantart": {
+    "pretty_name": "DeviantArt",
+    "logo_url": "https://www.deviantart.com/favicon.ico",
+    "search_template": "https://www.deviantart.com/search?q=%s"
+  },
+  "pixiv": {
+    "pretty_name": "Pixiv",
+    "logo_url": "https://www.pixiv.net/favicon.ico",
+    "search_template": "https://www.pixiv.net/en/tags/%s/artworks"
+  },
+  "giphy": {
+    "pretty_name": "Giphy",
+    "logo_url": "https://giphy.com/static/img/giphy_logo_square.png",
+    "search_template": "https://giphy.com/search/%s"
+  },
+  "tenor": {
+    "pretty_name": "Tenor GIFs",
+    "logo_url": "https://tenor.com/favicon.ico",
+    "search_template": "https://tenor.com/search/%s"
+  },
+  "unsplash": {
+    "pretty_name": "Unsplash",
+    "logo_url": "https://unsplash.com/favicon.ico",
+    "search_template": "https://unsplash.com/s/photos/%s"
+  },
+  "pexels": {
+    "pretty_name": "Pexels",
+    "logo_url": "https://images.pexels.com/lib/api/pexels-logo.png",
+    "search_template": "https://www.pexels.com/search/%s/"
+  },
+  "pixabay": {
+    "pretty_name": "Pixabay",
+    "logo_url": "https://pixabay.com/static/img/logo_square.png",
+    "search_template": "https://pixabay.com/images/search/%s/"
+  },
+  "youtube": {
+    "pretty_name": "YouTube",
+    "logo_url": "https://www.youtube.com/s/desktop/fe7c54e7/img/favicon_144.png",
+    "search_template": "https://www.youtube.com/results?search_query=%s"
+  },
+  "vimeo": {
+    "pretty_name": "Vimeo",
+    "logo_url": "https://vimeo.com/favicon.ico",
+    "search_template": "https://vimeo.com/search?q=%s"
+  },
+  "stackoverflow": {
+    "pretty_name": "StackOverflow",
+    "logo_url": "https://cdn.sstatic.net/Sites/stackoverflow/Img/favicon.ico",
+    "search_template": "https://stackoverflow.com/search?q=%s"
+  },
+  "github": {
+    "pretty_name": "GitHub",
+    "logo_url": "https://github.githubassets.com/favicons/favicon.svg",
+    "search_template": "https://github.com/search?q=%s"
+  },
+  "gitlab": {
+    "pretty_name": "GitLab",
+    "logo_url": "https://about.gitlab.com/images/press/logo/png/gitlab-logo-500.png",
+    "search_template": "https://gitlab.com/search?search=%s"
+  },
+  "npm": {
+    "pretty_name": "npm",
+    "logo_url": "https://www.npmjs.com/static/images/favicon-32x32.png",
+    "search_template": "https://www.npmjs.com/search?q=%s"
+  },
+  "cratesio": {
+    "pretty_name": "Crates.io",
+    "logo_url": "https://crates.io/assets/crates-io-favicon-4e6b9f7f5c45f148e5d4cbbf25a9c07c.png",
+    "search_template": "https://crates.io/search?q=%s"
+  },
+  "pypi": {
+    "pretty_name": "PyPI",
+    "logo_url": "https://pypi.org/static/images/logo-small.95d5f5b2.svg",
+    "search_template": "https://pypi.org/search/?q=%s"
+  },
+  "npmtrends": {
+    "pretty_name": "npm trends",
+    "logo_url": "https://www.npmtrends.com/static/favicon.png",
+    "search_template": "https://www.npmtrends.com/%s"
+  }
 }
